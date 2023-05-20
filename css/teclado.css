@@ -1,15 +1,14 @@
 .teclado {
-    width: 217px;
+    width: 310px;
     margin: auto;
     padding: 3px;
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    column-gap: .5rem;
+    display: flex;
+    justify-content: space-around;
 }
 
 .teclado-tecla {
-    width: 3rem;
-    height: 3rem;
+    width: 4.3rem;
+    height: 4.3rem;
     border-radius: 100%;
     border: none;
     background-color: #2e4057;
@@ -20,8 +19,10 @@
 }
 
 .teclado-operadores {
-    display: grid;
-    row-gap: .5rem;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
 }
 
 .teclado-operadores .teclado-tecla {
