@@ -2,7 +2,6 @@
     height: 100px;
     margin: 30px auto;
     width: 300px;
-
 }
 
 .lcd {
@@ -11,13 +10,12 @@
     text-align: right;
     width: 100%;
     background-color: #2e4057;
-
 }
 
 .lcd-principal {
     height: 65px;
     font-size: 2rem;
-
+    overflow: auto;
 }
 
 .lcd-resultado {
@@ -27,17 +25,12 @@
     resize: none;
     outline: none;
     overflow: auto;
-
-}
-
-.lcd-operador{
-    height: 80px;
-    width: 25px;
 }
 .lcd-caixa-resultado{
     display: flex;
     align-items: flex-end;
 }
+
 .lcd-principal:focus {
     outline: none;
 }
