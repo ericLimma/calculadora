@@ -6,10 +6,10 @@
 
 .lcd {
     border: none;
-    color: #f96e46;
+    color: var(--operator-text-color);
     text-align: right;
     width: 100%;
-    background-color: #2e4057;
+    background-color: #f96d4600;
 }
 
 .lcd-principal {

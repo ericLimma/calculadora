@@ -7,12 +7,13 @@
 }
 
 .teclado-tecla {
-    background-color: #2e4057;
-    box-shadow: 1px 1px 3px rgba(189, 188, 188, 0.493);
+    background-color: #f96d4600;
+    box-shadow: var(--btn-shadow-color);
     border: none;
     border-radius: 100%;
-    color: #f5f5f5;
-    font-size: 1.1rem;
+    color: var(--num-text-color);
+    font-size: 1.2rem;
+    font-weight: 400;
     font-family: 'Roboto';
     height: 4.3rem;
     width: 4.3rem;
@@ -26,15 +27,15 @@
 
 #tecla-igual {
     background-color: #f96e46;
-    color: #2e4057;
+    color: #093364;
 }
 
 #tecla-igual:hover {
-    background-color: #cf5533;
+    background-color: var(--equal-bg-color);
 
 }
 .tecla-operador {
-    color: #f96e46;
+    color: var(--operator-text-color);
 }
 
 .teclado-numeros {
@@ -45,7 +46,7 @@
 }
 
 .teclado-tecla:hover {
-    background-color: #28374b;
+    background-color: var(--btn-hover-color);
 }
 
 .teclado-tecla:focus {
@@ -54,11 +55,4 @@
 
 .clear {
     color: red;
-}
-.button:active,
-.button:focus {
-  /* Estilos para quando o botão está pressionado ou focado */
-  background-color: #f00;
-  color: #fff;
-  /* Outros estilos desejados */
 }
